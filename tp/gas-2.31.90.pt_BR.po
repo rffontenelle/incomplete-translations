@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gas 2.31.90\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
 "POT-Creation-Date: 2019-01-19 16:32+0000\n"
-"PO-Revision-Date: 2019-07-03 20:11-0300\n"
+"PO-Revision-Date: 2019-07-11 18:05-0300\n"
 "Last-Translator: Geyslan G. Bem <geyslan@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -275,32 +275,38 @@ msgid ""
 "  --gdwarf-sections       generate per-function section names for DWARF line "
 "information\n"
 msgstr ""
+"  --gdwarf-sections       gera nomes de seção por função para informação de "
+"linha DWARF\n"
 
 #: as.c:337
 #, c-format
 msgid "  --hash-size=<value>     set the hash table size close to <value>\n"
 msgstr ""
+"  --hash-size=<valor>     define o tamanho da tabela de hash próximo a "
+"<valor>\n"
 
 #: as.c:339
 #, c-format
 msgid "  --help                  show this message and exit\n"
-msgstr ""
+msgstr "  --help                  exibe esta mensagem e encerra\n"
 
 #: as.c:341
 #, c-format
 msgid "  --target-help           show target specific options\n"
-msgstr ""
+msgstr "  --target-help           exibe opções específicas do target\n"
 
 #: as.c:343
 #, c-format
 msgid ""
 "  -I DIR                  add DIR to search list for .include directives\n"
 msgstr ""
+"  -I DIR                  adiciona DIR na lista de busca de diretivas ."
+"include\n"
 
 #: as.c:345
 #, c-format
 msgid "  -J                      don't warn about signed overflow\n"
-msgstr ""
+msgstr "  -J                      não alerta sobre signed overflow\n"
 
 #: as.c:347
 #, c-format
@@ -308,16 +314,19 @@ msgid ""
 "  -K                      warn when differences altered for long "
 "displacements\n"
 msgstr ""
+"  -K                      alerta quando há diferenças alteradas por longos "
+"deslocamentos\n"
 
 #: as.c:349
 #, c-format
 msgid "  -L,--keep-locals        keep local symbols (e.g. starting with `L')\n"
 msgstr ""
+"  -L,--keep-locals        mantém símbolos locais (ex. começando com `L')\n"
 
 #: as.c:351
 #, c-format
 msgid "  -M,--mri                assemble in MRI compatibility mode\n"
-msgstr ""
+msgstr "  -M,--mri                assembla no modo de compatibilidade MRI\n"
 
 #: as.c:353
 #, c-format
@@ -325,11 +334,13 @@ msgid ""
 "  --MD FILE               write dependency information in FILE (default "
 "none)\n"
 msgstr ""
+"  --MD ARQUIVO            escreve informações de dependência no ARQUIVO "
+"(padrão nenhum)\n"
 
 #: as.c:355
 #, c-format
 msgid "  -nocpp                  ignored\n"
-msgstr ""
+msgstr "  -nocpp                  ignorada\n"
 
 #: as.c:357
 #, c-format
@@ -337,6 +348,8 @@ msgid ""
 "  -no-pad-sections        do not pad the end of sections to alignment "
 "boundaries\n"
 msgstr ""
+"  -no-pad-sections        não preenche o fim das seções até os limites de "
+"alinhamento\n"
 
 #: as.c:359
 #, c-format
@@ -344,11 +357,15 @@ msgid ""
 "  -o OBJFILE              name the object-file output OBJFILE (default a."
 "out)\n"
 msgstr ""
+"  -o ARQOBJ               nomeia a saída do arquivo objeto como ARQOBJ "
+"(padrão a.out)\n"
 
 #: as.c:361
 #, c-format
 msgid "  -R                      fold data section into text section\n"
 msgstr ""
+"  -R                      incorpora a seção de dados dentro da seção de "
+"texto\n"
 
 #: as.c:363
 #, c-format
@@ -357,28 +374,35 @@ msgid ""
 "                          prefer smaller memory use at the cost of longer\n"
 "                          assembly times\n"
 msgstr ""
+"  --reduce-memory-overheads \n"
+"                          prefere menor uso de memória ao custo de\n"
+"                          assembly com tempos mais longos\n"
 
 #: as.c:367
 #, c-format
 msgid ""
 "  --statistics            print various measured statistics from execution\n"
 msgstr ""
+"  --statistics            imprime várias estatísticas aferidas de execução\n"
 
 #: as.c:369
 #, c-format
 msgid "  --strip-local-absolute  strip local absolute symbols\n"
-msgstr ""
+msgstr "  --strip-local-absolute  remove símbolos absolutos locais\n"
 
 #: as.c:371
 #, c-format
 msgid ""
 "  --traditional-format    Use same format as native assembler when possible\n"
 msgstr ""
+"  --traditional-format    Quando possível usa mesmo formato do assembler "
+"nativo\n"
 
 #: as.c:373
 #, c-format
 msgid "  --version               print assembler version number and exit\n"
 msgstr ""
+"  --version               imprime número de versão do assembler e encerra\n"
 
 #: as.c:375
 #, c-format
