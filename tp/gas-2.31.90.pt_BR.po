@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gas 2.31.90\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
 "POT-Creation-Date: 2019-01-19 16:32+0000\n"
-"PO-Revision-Date: 2019-07-11 18:05-0300\n"
+"PO-Revision-Date: 2019-07-16 17:24-0300\n"
 "Last-Translator: Geyslan G. Bem <geyslan@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -407,17 +407,17 @@ msgstr ""
 #: as.c:375
 #, c-format
 msgid "  -W  --no-warn           suppress warnings\n"
-msgstr ""
+msgstr "  -W  --no-warn           suprime avisos\n"
 
 #: as.c:377
 #, c-format
 msgid "  --warn                  don't suppress warnings\n"
-msgstr ""
+msgstr "  --warn                  não suprime avisos\n"
 
 #: as.c:379
 #, c-format
 msgid "  --fatal-warnings        treat warnings as errors\n"
-msgstr ""
+msgstr "  --fatal-warnings        trata avisos como erros\n"
 
 #: as.c:382
 #, c-format
@@ -426,21 +426,25 @@ msgid ""
 "                          matching the specifications defined in file "
 "INSTTBL\n"
 msgstr ""
+"  --itbl INSTTBL          extende conjunto de instruções para incluir "
+"instruções\n"
+"                          que correspondem a especificações definidas no "
+"arquivo INSTTBL\n"
 
 #: as.c:386
 #, c-format
 msgid "  -w                      ignored\n"
-msgstr ""
+msgstr "  -w                      ignorada\n"
 
 #: as.c:388
 #, c-format
 msgid "  -X                      ignored\n"
-msgstr ""
+msgstr "  -X                      ignorada\n"
 
 #: as.c:390
 #, c-format
 msgid "  -Z                      generate object file even after errors\n"
-msgstr ""
+msgstr "  -Z                      gera arquivo objeto mesmo após erros\n"
 
 #: as.c:392
 #, c-format
@@ -449,6 +453,9 @@ msgid ""
 "of\n"
 "                          the listing\n"
 msgstr ""
+"  --listing-lhs-width     define a largura em palavras da coluna de dados "
+"de\n"
+"                          saída da listagem\n"
 
 #: as.c:395
 #, c-format
@@ -458,6 +465,11 @@ msgid ""
 "than\n"
 "                          the width of the first line\n"
 msgstr ""
+"  --listing-lhs-width2    define a largura em palavras das linhas de "
+"continuação\n"
+"                          da coluna de dados de saída; ignorado se menor "
+"que\n"
+"                          a largura da primeira linha\n"
 
 #: as.c:399
 #, c-format
@@ -465,6 +477,8 @@ msgid ""
 "  --listing-rhs-width     set the max width in characters of the lines from\n"
 "                          the source file\n"
 msgstr ""
+"  --listing-rhs-width     define a largura máxima em caracteres das linhas\n"
+"                          do arquivo fonte\n"
 
 #: as.c:402
 #, c-format
@@ -472,32 +486,35 @@ msgid ""
 "  --listing-cont-lines    set the maximum number of continuation lines used\n"
 "                          for the output data column of the listing\n"
 msgstr ""
+"  --listing-cont-lines    define o número máximo de linhas de continuação "
+"usadas\n"
+"                          para a coluna de dados de saída da listagem\n"
 
 #: as.c:405
 #, c-format
 msgid "  @FILE                   read options from FILE\n"
-msgstr ""
+msgstr "  @ARQUIVO                lê opções do ARQUIVO\n"
 
 #: as.c:413
 #, c-format
 msgid "Report bugs to %s\n"
-msgstr ""
+msgstr "Reportar bugs para %s\n"
 
 #: as.c:635
 #, c-format
 msgid "unrecognized option -%c%s"
-msgstr ""
+msgstr "opção não reconhecida -%c%s"
 
 #. This output is intended to follow the GNU standards document.
 #: as.c:677
 #, c-format
 msgid "GNU assembler %s\n"
-msgstr ""
+msgstr "GNU assembler %s\n"
 
 #: as.c:678
 #, c-format
 msgid "Copyright (C) 2019 Free Software Foundation, Inc.\n"
-msgstr ""
+msgstr "Copyright (C) 2019 Free Software Foundation, Inc.\n"
 
 #: as.c:679
 #, c-format
@@ -506,6 +523,9 @@ msgid ""
 "the GNU General Public License version 3 or later.\n"
 "This program has absolutely no warranty.\n"
 msgstr ""
+"Este programa é software livre; você pode redistribuí-lo sob os termos da\n"
+"Licença Pública Geral GNU versão 3 ou posterior.\n"
+"Este programa não tem absolutamente nenhuma garantia.\n"
 
 #: as.c:684
 #, c-format
@@ -513,19 +533,21 @@ msgid ""
 "This assembler was configured for a target of `%s' and default,\n"
 "cpu type `%s'.\n"
 msgstr ""
+"Este assembler foi configurado para um target de `%s' e por padrão,\n"
+"cpu de tipo `%s'.\n"
 
 #: as.c:688
 #, c-format
 msgid "This assembler was configured for a target of `%s'.\n"
-msgstr ""
+msgstr "Este assembler foi configurado para um target de `%s'.\n"
 
 #: as.c:696
 msgid "multiple emulation names specified"
-msgstr ""
+msgstr "especificados múltiplos nomes de emulação"
 
 #: as.c:698
 msgid "emulations not handled in this configuration"
-msgstr ""
+msgstr "emulações não tratadas nesta configuração"
 
 #: as.c:703
 #, c-format
